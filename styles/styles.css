@@ -877,9 +877,35 @@ body * {
     }
     .projects__img_mobile {
         display: block;
+        margin: 36px 0;
+        position: relative;
+    }
+    .img_mobile {
         width: 340px;
         height: 241px;
-        margin: 36px 0;
+    }
+    .projects__overlay_mobile {
+        position: absolute;
+        display: flex;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 14px;
+    }
+    .projects__round {
+        background: #E3B873;
+        border-radius: 50%;
+        height: 36px;
+        width: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects__round>img {
+        width: auto;
     }
     .projects__text {
         line-height: 17px;
@@ -894,6 +920,7 @@ body * {
     }
     .projects__title {
         margin: 0 auto;
+        color: #E3B873;
     }
     .projects__arrow {
         display: none;

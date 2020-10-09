@@ -126,7 +126,7 @@ body * {
     text-decoration: none;
     color: white;
 }
-.menu__navigation_item:hover {
+.menu__navigation_item>a:hover {
     color: #E3B873;
 }
 
@@ -223,7 +223,7 @@ body * {
     line-height: 19px;
     color: rgba(255, 255, 255, 0.3);
 }
-.projects__navigation_item:hover {
+.projects__navigation_item>a:hover {
     color: #E3B873;
 }
 
@@ -275,14 +275,17 @@ body * {
 
 .projects__arrow {
     display: flex;
+    align-items: center;
     margin-top: 47px;
 }
 
 .projects__button {
+    display: flex;
     width: 41px;
     background: none;
     border: none;
     padding: 0;
+    box-shadow: none;
 }
 
 .projects__pointer-container {
@@ -299,7 +302,7 @@ body * {
     height: 10px;
     margin: 0 9px;
 }
-.projects__pointer:hover {
+.projects__pointer-container>button:hover {
     background: #ffffff;
 }
 
@@ -821,7 +824,7 @@ body * {
     width: auto;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1000px) {
     .title {
         font-family: "Yeseva One", Arial, serif;
         font-style: normal;

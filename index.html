@@ -451,37 +451,39 @@
         </div>
     </section>
 
-        <form class="questions__form" action="" method="post">
-            <h2 class="questions__subtitle subtitle">
-                have any questions?
-            </h2>
-            <div class="form__first-line">
-                <div class="form__field">
-                    <label class="label label_request">Name:</label>
-                    <input class="input input_request" type="text"
-                           name="" placeholder="What is your name:">
+        <div class="questions__wrap">
+            <form class="questions__form" action="" method="post">
+                <h2 class="questions__subtitle subtitle">
+                    have any questions?
+                </h2>
+                <div class="form__first-line">
+                    <div class="form__field">
+                        <label class="label label_request">Name:</label>
+                        <input class="input input_request" type="text"
+                               name="" placeholder="What is your name:">
+                    </div>
+                    <div class="form__field">
+                        <label class="label label_request">Phone:</label>
+                        <input class="input input_request" type="text"
+                               name="" placeholder="Your phone number:">
+                    </div>
                 </div>
-                <div class="form__field">
-                    <label class="label label_request">Phone:</label>
+                <div class="form__field form__second-line">
+                    <label class="label label_request">Question:</label>
                     <input class="input input_request" type="text"
-                           name="" placeholder="Your phone number:">
+                           name="" placeholder="I want to know:">
                 </div>
-            </div>
-            <div class="form__field form__second-line">
-                <label class="label label_request">Question:</label>
-                <input class="input input_request" type="text"
-                       name="" placeholder="I want to know:">
-            </div>
-            <div class="request__checkbox questions__checkbox">
-                <label class="label">
-                    <input type="checkbox" class="checkbox" >
-                    <span class="fake"></span>
-                    <span class="text text_request-checkbox">I agree to the processing of personal data.</span>
-                </label>
-            </div>
-            <input class="button form__button form__button_questions" type="submit"
-                   name="submit" value="Call the measurer">
-        </form>
+                <div class="request__checkbox questions__checkbox">
+                    <label class="label">
+                        <input type="checkbox" class="checkbox" >
+                        <span class="fake"></span>
+                        <span class="text text_request-checkbox">I agree to the processing of personal data.</span>
+                    </label>
+                </div>
+                <input class="button form__button form__button_questions" type="submit"
+                       name="submit" value="Call the measurer">
+            </form>
+        </div>
 
 
     <section class="location">

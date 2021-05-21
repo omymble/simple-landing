@@ -91,7 +91,7 @@ body * {
 }
 
 .container {
-    max-width: 1171px;
+    max-width: 1256px;
     margin: 0 auto;
 }
 
@@ -405,7 +405,6 @@ body * {
 
 .control__form {
     display: flex;
-    /*width: 817px;*/
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
@@ -811,7 +810,7 @@ body * {
     width: auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
     .title {
         font-family: "Yeseva One", Arial, serif;
         font-style: normal;
@@ -827,7 +826,6 @@ body * {
     }
     .container {
         max-width: 339px;
-        /*margin: 0 auto;*/
     }
     .menu {
         max-width: 90%;
